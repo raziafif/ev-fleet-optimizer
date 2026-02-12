@@ -2,6 +2,8 @@
 
 AI-powered electric vehicle fleet charging optimization system with real-time web dashboard.
 
+<img width="1701" height="926" alt="image" src="https://github.com/user-attachments/assets/fb649009-de58-4e7d-9b93-7bba8d1a0fe1" />
+
 ## Quick Start
 
 ### Prerequisites
