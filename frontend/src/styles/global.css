@@ -81,15 +81,25 @@ body {
 .dashboard {
   min-height: 100vh;
   padding: var(--spacing-lg);
+  padding-top: 140px; /* Space for sticky header */
 }
 
 .dashboard-header {
-  margin-bottom: var(--spacing-xl);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: var(--color-bg);
+  padding: var(--spacing-lg);
+  margin-bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
 }
 
 .dashboard-title {
